@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Whisper model cache
+~/.cache/huggingface/
+model_cache/
+
+# whispy runtime data (user-specific, not project files)
+*.db
+*.wav
+recordings/
+
+# Secrets
+.env
+*.env
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Textual CSS snapshots / screenshots
+*.svg
+textual_css_snapshots/

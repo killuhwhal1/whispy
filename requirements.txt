@@ -1,0 +1,18 @@
+# whispy requirements
+# Python 3.11+
+
+# TUI
+textual>=0.47.0
+
+# Audio capture
+sounddevice>=0.4.6
+numpy>=1.24.0
+
+# Local transcription
+faster-whisper>=1.0.0
+
+# Clipboard (tries pyperclip first, falls back to xclip/xsel/wl-copy)
+pyperclip>=1.8.2
+
+# OpenAI Whisper API (optional — used when --backend openai)
+openai>=1.0.0
